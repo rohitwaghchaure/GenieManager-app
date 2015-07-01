@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include geniemanager *.css
+recursive-include geniemanager *.csv
+recursive-include geniemanager *.html
+recursive-include geniemanager *.ico
+recursive-include geniemanager *.js
+recursive-include geniemanager *.json
+recursive-include geniemanager *.md
+recursive-include geniemanager *.png
+recursive-include geniemanager *.py
+recursive-include geniemanager *.svg
+recursive-include geniemanager *.txt
+recursive-exclude geniemanager *.pyc
